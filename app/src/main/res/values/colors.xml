@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="primary">#FF4db4d7</color>
-    <color name="white">#FFFFFFFF</color>
+    <color name="background">#FF0A202E</color>
+    <color name="text">#FFFFFFFF</color>
+    <color name="notification">#FF4DB4D7</color>
+    <color name="arrowbutton">#FF02080B</color>
 </resources>

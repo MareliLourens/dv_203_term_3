@@ -13,7 +13,25 @@
         android:theme="@style/Theme.FinalProject"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity2"
+            android:name=".Results"
+            android:exported="false" />
+        <activity
+            android:name=".SettingsScreen"
+            android:exported="false" />
+        <activity
+            android:name=".QuestionsM"
+            android:exported="false" />
+        <activity
+            android:name=".QuestionsL"
+            android:exported="false" />
+        <activity
+            android:name=".QuestionsI"
+            android:exported="false" />
+        <activity
+            android:name=".CategoryScreen"
+            android:exported="false" />
+        <activity
+            android:name=".Homepage"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
