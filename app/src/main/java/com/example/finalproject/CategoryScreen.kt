@@ -27,13 +27,15 @@ class CategoryScreen : AppCompatActivity() {
         }
 
         binding.Liyue.setOnClickListener {
-            val intent2 = Intent(this, QuestionsL::class.java)
-            startActivity(intent2)
+            val intent = Intent(this, QuestionsL::class.java)
+            intent.putExtra("username", username.toString())
+            startActivity(intent)
         }
 
         binding.button3.setOnClickListener {
-            val intent3 = Intent(this, QuestionsI::class.java)
-            startActivity(intent3)
+            val intent = Intent(this, QuestionsI::class.java)
+            intent.putExtra("username", username.toString())
+            startActivity(intent)
         }
 
     }
