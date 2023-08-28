@@ -58,6 +58,7 @@ object ConstantsI {
             "Gorou"
         )
 
+        Inazuma_Questions.clear()
         Inazuma_Questions.add(que1)
         Inazuma_Questions.add(que2)
         Inazuma_Questions.add(que3)

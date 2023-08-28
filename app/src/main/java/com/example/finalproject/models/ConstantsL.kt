@@ -58,6 +58,7 @@ object ConstantsL {
             "Baizhu"
         )
 
+        Liyue_Questions.clear()
         Liyue_Questions.add(que1)
         Liyue_Questions.add(que2)
         Liyue_Questions.add(que3)

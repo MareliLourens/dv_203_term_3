@@ -85,7 +85,7 @@ class QuestionsI : AppCompatActivity() {
                     startActivity(intent)
                     finish()
                 } else {
-                    val intent = Intent(this, QuestionsM::class.java)
+                    val intent = Intent(this, QuestionsI::class.java)
                     if (questionNumber != null) {
                         intent.putExtra("questionNumber", questionNumber + 1)
                     }

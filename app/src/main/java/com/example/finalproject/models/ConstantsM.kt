@@ -59,6 +59,7 @@ object ConstantsM {
             "Wolfhook"
         )
 
+        Mondstadt_Questions.clear()
         Mondstadt_Questions.add(que1)
         Mondstadt_Questions.add(que2)
         Mondstadt_Questions.add(que3)
